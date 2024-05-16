@@ -6,7 +6,6 @@ const Player = (props) => {
   return (
     <div>
       <ReactPlayer
-        key={playerId}
         url={url}
         muted={muted}
         playing={playing}
