@@ -44,7 +44,7 @@ const Room = () => {
           [newUser]: {
             url: incomingStream,
             muted: true,
-            playing: true,
+            playing: false,
           },
         }));
 
@@ -111,7 +111,7 @@ const Room = () => {
           [callerId]: {
             url: incomingStream,
             muted: true,
-            playing: true,
+            playing: false,
           },
         }));
 
@@ -131,7 +131,7 @@ const Room = () => {
       [myId]: {
         url: stream,
         muted: true,
-        playing: true,
+        playing: false,
       },
     }));
   }, [myId, setPlayers, stream]);
